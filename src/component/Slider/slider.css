@@ -1,0 +1,35 @@
+.carousel-image {
+  background-attachment: fixed !important;
+}
+
+.main-slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.main-slider .slider {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.prev,
+.next {
+  color: #000 !important;
+  background-color: rgba(255, 255, 255, 0.6196078431) !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 50px !important;
+}
+
+.dot {
+  background-color: rgba(255, 255, 255, 0.3647058824) !important;
+}
+
+.dot.active {
+  background-color: #fff !important;
+}/*# sourceMappingURL=slider.css.map */

@@ -1,0 +1,21 @@
+.home {
+  padding: 5px 300px;
+  display: flex;
+  flex-direction: column;
+
+  .title-text {
+    display: flex;
+    float: left;
+    align-content: center;
+  }
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+    .card {
+      width: 240px;
+      margin-right: 20px;
+    }
+  }
+}

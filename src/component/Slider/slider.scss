@@ -1,0 +1,31 @@
+.carousel-image {
+  background-attachment: fixed !important;
+}
+.main-slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  .slider {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.prev,
+.next {
+  color: #000 !important;
+  background-color: #ffffff9e !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  border-radius: 50px !important;
+}
+.dot {
+  background-color: #ffffff5d !important;
+}
+.dot.active {
+  background-color: #fff !important;
+}

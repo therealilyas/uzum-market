@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f5f5;
+  padding: 5px 200px;
+  font-size: 15px;
+}
+.header .location {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  font-size: 15px;
+}
+.header .location .city {
+  display: flex;
+  flex-direction: row;
+  margin-right: 1rem;
+}
+.header .location .city p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header .location .city p span {
+  margin-left: 8px;
+  font-family: Inter, sans-serif;
+  cursor: pointer;
+  color: #141415;
+  line-height: 1;
+  box-sizing: border-box;
+  font-size: 100%;
+  vertical-align: baseline;
+  outline: none;
+  font-style: inherit;
+  border-bottom: 1px solid;
+  font-weight: 500;
+  position: relative;
+  top: 1px;
+}
+.header .location .delivery-point a {
+  color: #141415;
+  text-decoration: none;
+  font-weight: 500;
+}
+.header .main-usp {
+  color: #62656a;
+  text-align: center;
+  flex: 450px 1 1;
+  line-height: 1;
+  font-weight: 400;
+}
+.header .top-links {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .top-links .faq,
+.header .top-links li {
+  text-decoration: none;
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.header .top-links .languages {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.header .top-links .languages__icon {
+  width: 20px;
+  margin-right: 0.5rem;
+}
+.header .top-links .languages__lang {
+  font-family: 600;
+  font-size: 100%;
+  color: #62656a;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,19 @@
+.home {
+  padding: 5px 300px;
+  display: flex;
+  flex-direction: column;
+}
+.home .title-text {
+  display: flex;
+  float: left;
+  align-content: center;
+}
+.home .products {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.home .products .card {
+  width: 240px;
+  margin-right: 20px;
+}/*# sourceMappingURL=home.css.map */

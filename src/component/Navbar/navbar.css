@@ -1,0 +1,119 @@
+.navbar {
+  height: auto !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+  list-style: none;
+}
+.navbar .search-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .search-input input {
+  width: 450px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  font-family: Inter, sans-serif;
+  border: 1px solid rgba(118, 121, 127, 0.3);
+  padding: 0 calc(15% + 38px) 0 16px;
+  background-color: #fff;
+  transition: box-shadow 0.2s ease;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: none;
+}
+.navbar .search-input .search__btn {
+  width: 70px;
+  height: 35px;
+  font-family: Inter, sans-serif;
+  border: 1px solid rgba(118, 121, 127, 0.3);
+  border-left: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.navbar .store-action-buttons {
+  width: 370px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .store-action-buttons .button__auth,
+.navbar .store-action-buttons .button__cart,
+.navbar .store-action-buttons .button__wishes {
+  display: flex;
+  align-items: center;
+}
+.navbar .store-action-buttons .button__auth img,
+.navbar .store-action-buttons .button__auth svg,
+.navbar .store-action-buttons .button__cart img,
+.navbar .store-action-buttons .button__cart svg,
+.navbar .store-action-buttons .button__wishes img,
+.navbar .store-action-buttons .button__wishes svg {
+  width: 25px;
+}
+.navbar .store-action-buttons .button__auth p,
+.navbar .store-action-buttons .button__cart p,
+.navbar .store-action-buttons .button__wishes p {
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  padding: 5px 200px;
+}
+.categories__item ::after {
+  position: relative;
+  top: 3px;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.5s;
+}
+.categories__item :hover::after {
+  color: #000;
+  width: 100%;
+}
+.categories .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.categories .logo .percent-zero {
+  width: 20px;
+  margin-right: 2px;
+}
+.categories .logo span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.categories li {
+  font-size: 14px;
+}
+.categories li a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  transition: width 0.5s;
+}
+.categories li a:hover {
+  color: #000;
+}
+.categories .more {
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+}
+.categories .more svg {
+  position: relative;
+  top: 2px;
+}/*# sourceMappingURL=navbar.css.map */
